@@ -1,9 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="http://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Alegreya:700" rel="stylesheet" type="text/css" />
+    <title>Languages Spoken in the USA</title>
 </head>
 <body>
-   <applet code="pieApplet.class" width="200" height = "200"></applet>
+<div id="title">
+    <div id="maintitle"><h1>Languages Spoken in the United States</h1></div>
+    <div id="subtitle"><h2>by percentage</h2></div>
+</div>
+<div id="contents">
+    <div id="appcontain">
+        <embed id="pieApplet"
+          type="application/x-java-applet;version=1.7"
+          width="250" height="250"
+          archive="pieApp.jar"
+          code="pieApplet"
+          pluginspage="http://java.com/download/"
+           />
+    </div>
+    <div id="tablekey">
+        <ul>
+            <li><div class="boxes" id="c1"></div><div class="keytext">  English (80%)</div></li>
+            <li><div class="boxes" id="c2"></div><div class="keytext">   Spanish(12.4%)</div></li>
+            <li><div class="boxes" id="c3"></div><div class="keytext">   Other European(3.7%)</div></li>
+            <li><div class="boxes" id="c4"></div><div class="keytext">   Asian-Pacific(3%)</div></li>
+        </ul>
+    </div>
+</div>
+<div id="bodytext">
+    <p>
+        English is the most common language in the United States.
+        Eighty percent of the population claim to speak it natively.
+        There is no national language of the US however.
+    </p>
+    <p> The second most common language in the United States is spanish.
+        It is spoken by about 35 million people.
+        The US holds the fifth largest spanish speaking population in the world
+    </p>
+</div>
+<footer>
+    This content was gathered from wikipedia.org.
+    http://en.wikipedia.org/wiki/Languages_of_the_United_States
+</footer>
 </body>
 </html>

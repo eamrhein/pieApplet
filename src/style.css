@@ -1,0 +1,104 @@
+body{
+    background: #F1F2E2;
+}
+h1,h2,h3,p{
+    color: #666757;
+}
+#keytext{
+    display: inline-block;
+    vertical-align: middle;
+}
+li {
+    list-style: none;
+    text-align: left;
+    vertical-align: bottom;
+}
+h1 {
+    font-family: 'Alegreya', serif;
+    font-weight: 700;
+    line-height: 46px;
+    font-size: 46px;
+    margin: 0 0 0px 0;
+}
+h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 23px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0 0 23px 0;
+}
+p, li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 23px;
+    margin: 0 0 23px 0;
+}
+#title{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#maintitle{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+#subtitle{
+    text-align: center;
+}
+#appcontain{
+    display: inline-block;
+    width:  250px;
+}
+#tablekey{
+    padding-top: 3%;
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+}
+
+#contents{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+.boxes{
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin: 1px 5px 5px 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0,0,0,.2);
+}
+#bodytext{
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+p {
+    text-align: left;
+    text-indent: 30px;
+}
+#c1{
+    background: #056572;
+}
+#c2{
+    background: #038A7A;
+}
+#c3{
+    background: #F0A514;
+}
+#c4 {
+    background: #F0760A;
+}
+footer {
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+}
